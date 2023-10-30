@@ -8,6 +8,7 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
+//	This is a new commit message to practice git
 	public LoginPage(WebDriver ldriver) {
 		this.driver=ldriver;
 	}
