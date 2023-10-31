@@ -21,7 +21,7 @@ public class Helper {
 //		 to use screenshot path for attachment
 		 
 		 
-		 String screenshotPath= System.getProperty("user.dir"+"/Screenshots/FreeCRM_"+getCurrentDateTime()+".png");
+		 String screenshotPath= System.getProperty("user.dir")+"/Screenshots/FreeCRM_"+getCurrentDateTime()+".png";
 		 
 		 try {
 			FileHandler.copy(src, new File(screenshotPath));
